@@ -48,16 +48,6 @@ Key steps included:
 
 ---
 
-## 🔍 Feature Importance  
-To improve interpretability, we visualized the most important features driving churn predictions.  
-
-📌 **Feature Importance Graph:**  
-![Feature Importance Graph](Docs/feature_importance.png)
-
-These insights help stakeholders understand not just *who* is at risk, but *why*.  
-
----
-
 ## 📦 Tools & Libraries Used  
 - Python (pandas, numpy, matplotlib, seaborn)  
 - scikit-learn (LogisticRegression, RandomForest, ROC-AUC evaluation)  
