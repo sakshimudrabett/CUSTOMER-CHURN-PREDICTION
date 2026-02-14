@@ -19,11 +19,6 @@ Before modeling, an interactive dashboard was created to visualize the original 
 - Customer demographics and tenure  
 - Transaction patterns and spending behavior differences between churners and non-churners  
 
-📌 **Example Dashboard Screenshot:**  
-![Feature Importance Graph](Docs/Dashbaord.png)
-
-
-This dashboard highlighted churn drivers, which informed the features selected for machine learning.  
 
 ---
 
@@ -41,7 +36,7 @@ We tested multiple algorithms including Logistic Regression, Random Forest, and 
 - **Cross-validation**: Applied **Stratified K-Fold (k=5)** to ensure balanced churn representation across folds.  
 - **Performance Metric**:  
   - Chosen metric was **ROC-AUC**, as accuracy is misleading on imbalanced datasets.  
-  - Final model achieved an **ROC-AUC ≈ [insert your score]**.  
+  - Final model achieved an **ROC-AUC ≈ 0.86 .  
 
 ---
 
@@ -50,9 +45,6 @@ Key steps included:
 - Comparing models with cross-validation ROC-AUC scores  
 - Evaluating final model on a **held-out test set** (untouched during training)  
 - Interpreting results to understand business impact  
-
-📌 ROC Curve Example:  
-![Feature Importance Graph](Docs/Roc_curve.png)
 
 ---
 
